@@ -1,0 +1,148 @@
+/* #region // Core */
+html {
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+a, a:link {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+a:hover {
+    color: #1ab7ea;
+    text-decoration: none;
+}
+h3 {
+    font-weight: 700;
+}
+h6 {
+    font-size: 9pt ;
+}
+small {
+    font-size: 9pt;
+}
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: #121212;
+    color: #F2F2F2;
+    background-image: url("../img/bg-stardust.png");
+}
+footer {
+    position: absolute;
+    bottom: 50;
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    clear: both;
+}
+/* #endregion */
+
+/* #region // Native Mods */
+.badge {
+    color: #121212;
+}
+.card, .card-header, .card-footer, .list-group-item {
+    background-color: #121212;
+    color: #F2F2F2;  
+    border: 1;
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px; /* or 950px */
+}
+/* #endregion */
+
+.row-top {
+    margin-top: 70px;
+}
+.row-title {
+    margin-top: 55px;
+}
+.row-subtitle {
+    margin-top: 30px;
+}
+.row-credits {
+    margin-top: 1px;
+}
+
+.job-cover {
+    max-width: 225px;
+    height: auto;
+    margin: auto;    
+    display: block;
+}
+.project-cover {
+    max-width: 125px;
+    height: auto;
+    margin: auto;    
+    display: block;
+}
+.brand-pc, .brand-ps, .brand-sw {
+    font-size: 0.9em;
+}
+.brand-pc {
+    background-color: #0078D6;
+    color: #F2F2F2;  
+}
+.brand-ps {
+    background-color: #003791;
+    color: #F2F2F2;  
+}
+.brand-sw {
+    background-color: #E60012;
+    color: #F2F2F2;  
+}
+
+/* #region // Fonts */
+.hero-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+.hero-subtitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.7em;
+    font-weight: 400;
+    text-align: center;
+}
+/* #endregion */
+
+#cardSlider {
+    --carousel-button-bg: rgba(255, 255, 255, 0.714);
+  
+    --carousel-button-width: 38px;
+    --carousel-button-height: 38px;
+  
+    --carousel-button-svg-width: 17px;
+    --carousel-button-svg-height: 17px;
+  
+    --carousel-button-svg-stroke-width: 3;
+    --carousel-button-shadow: 
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,  
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  
+  .carousel__button.is-prev {
+    left: 70px;
+  }
+  
+  .carousel__button.is-next {
+    right: 70px;
+  }
+
+  
